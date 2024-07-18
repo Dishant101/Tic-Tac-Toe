@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#9ab89b8e] font-['Open_Sans'] w-full h-screen ">
+  <div class="mains w-full h-[100vh] flex flex-col justify-center items-center z-50 fixed bg-[#9ab89b]">
+    <div class="loader text-white text-[15vw] lg:text-[5vw] flex w-[70%]">
+      <h2 class="loaderH1 italic">0</h2>
+      <h1 class="italic" >-100</h1>
+    </div>
+    
+    <div class="hero text-semibold text-whiteinline-block overflow-hidden w-[70%]  text-[15vw] lg:text-[7vw]" id="hero1">
+      <h1 class="text-white">Your Game</h1>  
+  </div>
+  <div class="hero text-semibold text-white overflow-hidden w-[65%]   text-center text-[11vw] lg:text-[7vw]" id="hero2">
+      <h1>Experience is</h1>
+  </div>
+  <div class="hero text-semibold text-white  overflow-hidden w-[70%]  text-[11vw] lg:text-[7vw]" id="hero3">
+      <h1>loading Now</h1>
+  </div>
+  </div>
+   
+    <div class="main w-full h-screen bg-[#9ab89b8e]  flex flex-col justify-center items-center ">
+      <div class="w-fit h-32 mx-auto">
+        <h1 class="bg-white text-4xl text-center mt-[-40px] capitalize text-[#476847] rounded hover:bg-[#476847] hover:text-white transition-all ">tic tac toe</h1>
+        <h1 class="winner text-2xl lg:text-5xl text-center my-2  text-white mix-blend-multiply" id="winner">1</h1>
+    
+            <button class="w-28 mr-4 py-1 rounded-md  text-white font-semibold bg-[#476847]">player X</button>
+            <button class="w-28  py-1 rounded-md  text-white font-semibold bg-[#476847]">player O </button>
+    
+        </div>
+  <div class="game h-[60vh] w-[60vh]  bg-[#476847] p-[10vh] flex flex-wrap gap-3 justify-center items-center mt-[-30px] ">
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   <button class="btns h-[12vh] w-[12vh] bg-white rounded-lg text-3xl text-[#476847]  "></button>
+   
+   
+</div>
+<button class="w-28 reset py-1 rounded-md mt-3 text-white font-semibold bg-[#476847]"> reset </button>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
